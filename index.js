@@ -4,6 +4,7 @@ let foodPrice = document.getElementById("food-select")
 let transportPrice = document.getElementById("transport-select")
 let total = document.getElementById("cost-el")
 let error = document.getElementById("error")
+let balloon = document.getElementById("balloon-checkbox").checked
 
 function calculate() {
 
@@ -20,6 +21,6 @@ function calculate() {
         error.innerHTML = "Input transport price"
         total.innerHTML = `$0`
         setTimeout(() => error.innerHTML = "", 3000)
-    }
-
+    } 
+    
 }
