@@ -17,17 +17,20 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      height: 100vh;
       color: var(--raisin);
       background-color: var(--yellow);
       padding: 2em;
       font-family: 'Karla', sans-serif;
+      margin-top: 50px;
   }
   
   form {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+      padding: 3rem;
+      border: 1px solid #333;
+      border-radius: 10px;
   }
   
   form * {
