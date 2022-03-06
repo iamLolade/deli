@@ -14,33 +14,43 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Gift Selector 💝</h1>
-    <p class="result" id="result">Total gift cost: <span id="cost-el">...</span></p>
-    <span id="error"></span>
-    <form>
+    <nav>Deli</nav>
+    <div class="container">
+      <h1>Gift Selector 💝</h1>
+      <p class="result" id="result">
+        Total gift cost: <span id="cost-el">...</span>
+      </p>
+      <span id="error"></span>
+      <form>
         <label for="food-select">Select food:</label>
         <select id="food-select">
-            <option value="">--Please select an option--</option>
-            <option value="5">🍓 strawberries - $5</option>
-            <option value="10">🍫 chocolate - $10</option>
-            <option value="20">🧁 cupcakes - $20</option>
+          <option value="">--Please select an option--</option>
+          <option value="5">🍓 strawberries - $5</option>
+          <option value="10">🍫 chocolate - $10</option>
+          <option value="20">🧁 cupcakes - $20</option>
         </select>
-        <br>
+        <br />
         <label for="transport-select">Select transport:</label>
         <select id="transport-select">
-            <option value="">--Please select an option--</option>
-            <option value="5">🛼 rollerskates - $5</option>
-            <option value="50">🚘 limo - $50</option>
-            <option value="500">🚁 helicopter - $500</option>
+          <option value="">--Please select an option--</option>
+          <option value="5">🛼 rollerskates - $5</option>
+          <option value="50">🚘 limo - $50</option>
+          <option value="500">🚁 helicopter - $500</option>
         </select>
-        <br>
+        <br />
         <div>
-            <label for="balloon-checkbox">Add balloons? 🎈</label>            
-            <input type="checkbox" id="balloon-checkbox" name="balloon-checkbox" checked>
+          <label for="balloon-checkbox">Add balloons? 🎈</label>
+          <input
+            type="checkbox"
+            id="balloon-checkbox"
+            name="balloon-checkbox"
+            checked
+          />
         </div>
-        
+
         <button id="btn" type="button">Calculate</button>
-    </form>
+      </form>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
