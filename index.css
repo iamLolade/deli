@@ -12,7 +12,7 @@
   html, body {
       margin: 0;
       padding: 0;
-      background: url("gift.jpg") no-repeat fixed;
+      background: url("./images/gift.jpg") no-repeat fixed;
       background-size: cover;
   }
 
